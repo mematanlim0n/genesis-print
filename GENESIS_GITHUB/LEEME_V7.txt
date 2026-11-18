@@ -1,0 +1,40 @@
+GENESIS V7 - NUEVOS MODULOS
+
+IMPORTANTE: Esta actualización requiere una migración de base de datos en Supabase ANTES de publicar los archivos en Netlify.
+
+ORDEN CORRECTO
+1) Conservá el ZIP y la versión publicada actual como respaldo. No borres ni reemplaces el proyecto Supabase.
+2) Entrá a Supabase > proyecto Genesis Precios > SQL Editor.
+3) Abrí el archivo GENESIS_MODULOS.sql de esta carpeta, copiá TODO su contenido y pegalo en una consulta nueva.
+4) Presioná RUN una sola vez. La migración agrega columnas/tablas y triggers; no borra los productos ni servicios actuales.
+5) Si Supabase informa Success, descomprimí este ZIP.
+6) En Netlify, abrí el sitio GENESIS y publicá el CONTENIDO de la carpeta GENESIS_V7_COMPLETO (la carpeta que contiene index.html, app.js, styles.css y config.js). No subas el ZIP comprimido.
+7) Esperá a que el deploy figure Published.
+8) Abrí GENESIS, actualizá con Ctrl+F5 y probá primero desde tu PC personal.
+9) Cuando todo funcione, actualizá las tres PCs del local. Puede ser necesario cerrar y volver a abrir la aplicación instalada.
+
+NUEVAS FUNCIONES
+- Historial: registra INSERT/UPDATE/DELETE de productos y servicios con correo del usuario autenticado, fecha y diferencias de campos relevantes.
+- Categorías de librería: asignar categoría al producto, filtrar por categoría y crear categorías desde el selector al cargar/editar un producto.
+- Alertas: botón ⚑ en productos y precios de servicios para marcar revisión pendiente; desde Alertas se marca como revisado.
+- Papelera: eliminar envía a papelera (borrado lógico); permite restaurar.
+- Presupuestos: combinar productos y variantes/precios de servicios, cantidades, cliente y observaciones; guardar, consultar e imprimir.
+
+CONSIDERACIONES
+- Las funciones nuevas requieren iniciar sesión; RLS permite el acceso a usuarios autenticados, igual que las listas existentes.
+- El historial registra el correo de Supabase. Si las tres PCs usan GENESIS LOCAL, el historial mostrará ese correo compartido, no cuál de las tres computadoras hizo el cambio.
+- La papelera conserva los registros en las tablas originales mediante deleted_at. No purga datos.
+- Los presupuestos guardan una copia de los renglones y precios usados, para que no cambien si luego se actualiza una lista.
+- Los servicios que tienen precio ByN/Color o Simple/Doble faz se ofrecen como variantes separadas en el selector de presupuesto.
+- No se incluyó exportación Excel ni backups automáticos: quedan para una etapa posterior.
+
+PRUEBAS RECOMENDADAS
+A) Ingresar con administrador y GENESIS LOCAL.
+B) Crear un producto de prueba, asignarle categoría y comprobar que aparece en el filtro.
+C) Marcarlo con ⚑ y comprobarlo en Alertas; luego marcar como revisado.
+D) Eliminarlo y restaurarlo desde Papelera.
+E) Modificar su precio y verificar Historial (correo/fecha/diferencia).
+F) Crear presupuesto de prueba con un producto y una variante de servicio; guardarlo y usar Ver/Imprimir.
+G) Verificar que los cambios se reflejen en las demás computadoras.
+
+Si la consulta SQL falla, NO publiques todavía el frontend nuevo. Guardá el mensaje de error y revisalo antes de continuar.

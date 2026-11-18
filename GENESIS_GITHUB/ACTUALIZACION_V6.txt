@@ -1,0 +1,19 @@
+GENESIS - Actualización V6
+
+Incluye:
+- Servicios de impresión en tablas tipo Excel con las cantidades, tamaños, modalidades y precios originales cargados en Supabase.
+- Entradas agrupadas por cantidad, sin filas vacías.
+- Folletos agrupados por SF y DF, sin filas vacías.
+- Epson planera con Papel común a color y Papel fotográfico, tamaños A1/A2/A3 y precios originales.
+- Epson tinta con Simple faz y Doble faz, conservando celdas sin precio vacías.
+- Indicador “Lista compartida” también en Servicios de impresión.
+- Contadores de Productos y En pantalla movidos al final de la vista.
+- Numeración consecutiva de los productos visibles.
+- Se conservan búsqueda, filtros, orden alfabético, edición, eliminación y sincronización.
+
+PUBLICACIÓN:
+1. Descomprimir este ZIP.
+2. En Netlify > proyecto GENESIS > Deploys, arrastrar la carpeta GENESIS_v6_actualizacion_final (la que contiene index.html).
+3. Esperar el estado Published.
+
+No requiere ejecutar SQL adicional. La función de eliminación depende del permiso DELETE que se habilitó previamente en Supabase.

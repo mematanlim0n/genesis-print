@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f47b20">
+<meta name="description" content="Lista de precios compartida de Librería Génesis">
+<title>GENESIS | Gestión de precios</title>
+<link rel="icon" type="image/png" href="logo-genesis.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css?v=8">
+</head>
+<body>
+<header class="topbar">
+  <div class="top-inner">
+    <img class="brand-logo" src="logo-genesis.png" alt="Génesis Print">
+    <div class="top-right">
+      <span id="connection" class="status offline"><i></i> Verificando conexión</span>
+      <button id="logoutBtn" class="logout hidden" type="button">Cerrar sesión</button>
+    </div>
+  </div>
+</header>
+<main class="shell">
+  <section id="loginPanel" class="login-layout">
+    <div class="login-intro">
+      <span class="kicker">LIBRERÍA · LISTA COMPARTIDA</span>
+      <h1>Todos los precios.<br><em>Siempre actualizados.</em></h1>
+      <p>Consultá y actualizá los productos desde cualquiera de las computadoras del local.</p>
+      <div class="login-benefits"><span>✓ Una sola lista</span><span>✓ Cambios sincronizados</span><span>✓ Acceso del personal</span></div>
+    </div>
+    <div class="login-card">
+      <div class="login-icon">G</div>
+      <h2>Ingresar a GENESIS</h2>
+      <p>Usá el correo y la contraseña que te asignaron.</p>
+      <form id="loginForm">
+        <label>Correo electrónico<input id="email" type="email" autocomplete="username" placeholder="usuario@comercio.com" required></label>
+        <label>Contraseña<input id="password" type="password" autocomplete="current-password" placeholder="Tu contraseña" required></label>
+        <button class="btn primary full" type="submit">Ingresar <span>→</span></button>
+        <p id="loginError" class="error" role="alert"></p>
+      </form>
+      <div class="secure-note">Acceso privado para el personal autorizado</div>
+    </div>
+  </section>
+
+  <section id="appPanel" class="hidden app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-brand"><img src="logo-genesis.png" alt="GENESIS Print"></div>
+      <nav class="side-nav" aria-label="Navegación principal">
+        <button type="button" class="side-link active" data-section="all"><span>⌂</span> Gestión de precios</button>
+        <button type="button" class="side-link" data-section="budgets"><span>▦</span> Calculadora de presupuestos</button>
+        <button type="button" class="side-link" data-section="history"><span>◷</span> Historial de modificaciones</button>
+        <button type="button" class="side-link" data-section="alerts"><span>♧</span> Alertas de precios <b id="alertBadge" class="nav-badge">0</b></button>
+        <button type="button" class="side-link" data-section="trash"><span>▤</span> Papelera de reciclaje</button>
+        <div class="side-divider"></div>
+        <div class="side-caption">CONFIGURACIÓN</div>
+        <button type="button" class="side-link" data-section="products"><span>◇</span> Categorías / Librería</button>
+      </nav>
+      <div class="sidebar-version"><strong>GENESIS v2.0</strong><span>Gestión de precios<br>para Genesis Print</span></div>
+    </aside>
+    <div class="workspace">
+      <header class="workspace-topbar">
+        <div class="workspace-title"><span class="kicker">LIBRERÍA GÉNESIS</span><h1>Gestión de precios</h1><p>Elegí qué lista querés consultar o actualizar.</p></div>
+        <div class="workspace-actions"><button id="addBtn" class="btn primary add-btn" type="button"><b>＋</b> Nuevo producto</button></div>
+      </header>
+      <div class="dashboard-metrics">
+        <div class="metric-card"><span class="metric-icon">◇</span><div><small>Total productos</small><strong id="metricProducts">—</strong></div></div>
+        <div class="metric-card"><span class="metric-icon">▤</span><div><small>Total servicios</small><strong id="metricServices">—</strong></div></div>
+        <div class="metric-card metric-warning"><span class="metric-icon">♧</span><div><small>Alertas de precios</small><strong id="metricAlerts">— pendientes</strong></div></div>
+        <div class="metric-card"><span class="metric-icon">◷</span><div><small>Último cambio</small><strong id="metricLastChange">—</strong></div></div>
+      </div>
+      <div class="main-toolbar">
+        <nav class="section-tabs" aria-label="Listas de precios">
+          <button type="button" class="section-tab active" data-section="all">TODO</button>
+          <button type="button" class="section-tab" data-section="products">▤ LIBRERÍA</button>
+          <button type="button" class="section-tab" data-section="services">▧ S.D.I.</button>
+        </nav>
+        <div class="toolbar-actions"><button id="sortAllBtn" class="sort-all-btn" type="button" title="Ordenar las dos listas alfabéticamente">A–Z Ordenar</button></div>
+      </div>
+      <div id="allSection" class="all-grid" data-view="all">
+        <section id="productsSection" class="split-panel dashboard-panel">
+          <div class="panel-title"><h2><span>▤</span> LIBRERÍA</h2></div>
+          <div class="list-toolbar">
+            <div class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="Buscar producto por nombre…" autocomplete="off"><kbd>ESC</kbd></div>
+            <select id="filter" aria-label="Filtrar productos"><option value="all">Todos los productos</option><option value="priced">Con precio</option><option value="missing">Sin precio público</option></select>
+            <select id="categoryFilter" aria-label="Filtrar por categoría"><option value="">Todas las categorías</option></select>
+            <button id="refreshBtn" class="refresh-btn" type="button" title="Actualizar lista">↻</button>
+          </div>
+          <div class="category-chips" id="categoryChips"><button type="button" class="chip active" data-category="">Todas</button></div>
+          <div class="list-card">
+            <div class="list-heading"><span>Nº</span><span>PRODUCTO</span><span>CATEGORÍA</span><span>PRECIO PÚBLICO</span><span>ACCIONES</span></div>
+            <div id="productList"><div class="loading"><span class="spinner"></span> Cargando productos…</div></div>
+          </div>
+          <div class="list-footer"><span>El precio base solo se muestra al abrir la edición.</span><span id="lastSync">—</span></div>
+        </section>
+        <section id="servicesSection" class="split-panel dashboard-panel">
+          <div class="panel-title"><h2><span>▧</span> Servicios de impresión</h2></div>
+          <div class="service-intro"><p>Precios de trabajos, folletos y distintos tipos de impresión.</p><div class="shared-note"><span class="live-dot"></span><span><strong>Lista compartida</strong><small>Los cambios se sincronizan automáticamente</small></span></div></div>
+          <div class="list-toolbar"><div class="searchbox"><span>⌕</span><input id="serviceSearch" type="search" placeholder="Buscar servicio, papel o tamaño…" autocomplete="off"></div><button id="serviceRefreshBtn" class="refresh-btn" type="button" title="Actualizar listas">↻ Actualizar</button></div>
+          <div id="serviceGroups"><div class="loading"><span class="spinner"></span> Cargando servicios…</div></div>
+          <div class="list-footer"><span>Servicios sincronizados</span><span id="lastSyncServices">Edición sincronizada</span></div>
+        </section>
+      </div>
+      <section id="budgetsModule" class="module-panel hidden">
+        <div class="module-heading"><div><span class="kicker">VENTAS Y COTIZACIONES</span><h2>Calculadora de presupuestos</h2><p>Combiná productos de librería y servicios de impresión.</p></div><button id="newBudgetBtn" class="btn primary">＋ Nuevo presupuesto</button></div>
+        <div id="budgetBuilder" class="module-card hidden"><div class="budget-fields"><label>Cliente (opcional)<input id="budgetCustomer" placeholder="Nombre del cliente"></label><label>Observaciones<input id="budgetNotes" placeholder="Detalles del trabajo"></label></div><div class="budget-add-row"><select id="budgetSource"><option value="products">Librería</option><option value="services">Servicios de impresión</option></select><select id="budgetItem"></select><input id="budgetQty" type="number" min="1" value="1" aria-label="Cantidad"><button id="addBudgetItem" class="btn primary" type="button">Agregar</button></div><div class="table-scroll"><table class="module-table"><thead><tr><th>Detalle</th><th>Cantidad</th><th>Precio unitario</th><th>Subtotal</th><th></th></tr></thead><tbody id="budgetLines"><tr><td colspan="5">Agregá productos o servicios al presupuesto.</td></tr></tbody></table></div><div class="budget-total">TOTAL <strong id="budgetTotal">$ 0</strong></div><div class="module-actions"><button id="cancelBudget" class="btn cancel" type="button">Cancelar</button><button id="saveBudget" class="btn primary" type="button">Guardar presupuesto</button></div><p id="budgetError" class="error"></p></div>
+        <div class="module-card"><h3>Presupuestos guardados</h3><div class="table-scroll"><table class="module-table"><thead><tr><th>Nº</th><th>Fecha</th><th>Cliente</th><th>Total</th><th>Acciones</th></tr></thead><tbody id="budgetHistory"><tr><td colspan="5">Cargando…</td></tr></tbody></table></div></div>
+      </section>
+      <section id="historyModule" class="module-panel hidden"><div class="module-heading"><div><span class="kicker">TRAZABILIDAD</span><h2>Historial de modificaciones</h2><p>Consultá quién cambió cada producto o servicio y cuándo.</p></div><button id="refreshHistory" class="btn secondary" type="button">↻ Actualizar</button></div><div class="module-card table-scroll"><table class="module-table"><thead><tr><th>Fecha y hora</th><th>Usuario</th><th>Acción</th><th>Elemento</th><th>Detalle</th></tr></thead><tbody id="historyRows"><tr><td colspan="5">Cargando…</td></tr></tbody></table></div></section>
+      <section id="alertsModule" class="module-panel hidden"><div class="module-heading"><div><span class="kicker">CONTROL DE PRECIOS</span><h2>Alertas de precios</h2><p>Marcá artículos que necesitan revisión y quitá la marca cuando estén actualizados.</p></div><button id="refreshAlerts" class="btn secondary" type="button">↻ Actualizar</button></div><div class="module-card"><h3>Librería</h3><div id="productAlerts"></div></div><div class="module-card"><h3>Servicios de impresión</h3><div id="serviceAlerts"></div></div></section>
+      <section id="trashModule" class="module-panel hidden"><div class="module-heading"><div><span class="kicker">RECUPERACIÓN</span><h2>Papelera de reciclaje</h2><p>Los elementos eliminados se conservan y pueden restaurarse.</p></div><button id="refreshTrash" class="btn secondary" type="button">↻ Actualizar</button></div><div class="module-card"><h3>Librería</h3><div id="productTrash"></div></div><div class="module-card"><h3>Servicios de impresión</h3><div id="serviceTrash"></div></div></section>
+      <section class="dashboard-shortcuts" id="dashboardShortcuts">
+        <button class="shortcut-card shortcut-budget" data-section="budgets"><span class="shortcut-icon">▦</span><strong>Calculadora de presupuestos</strong><small>Armá presupuestos combinando productos y servicios.</small><b>＋ Nuevo presupuesto</b></button>
+        <button class="shortcut-card shortcut-history" data-section="history"><span class="shortcut-icon">◷</span><strong>Historial de modificaciones</strong><small>Registro de cambios de precios.</small><b>Ver historial completo</b></button>
+        <button class="shortcut-card shortcut-alerts" data-section="alerts"><span class="shortcut-icon">♧</span><strong>Alertas de precios</strong><small>Productos que necesitan actualización.</small><b>Ver todas las alertas</b></button>
+        <button class="shortcut-card shortcut-trash" data-section="trash"><span class="shortcut-icon">▤</span><strong>Papelera de reciclaje</strong><small>Productos y servicios eliminados (recuperables).</small><b>Ver papelera</b></button>
+      </section>
+      <div class="stats-row bottom-stats"><div class="stat"><span class="stat-symbol">▤</span><div><strong id="totalStat">—</strong><small>Productos</small></div></div><div class="stat"><span class="stat-symbol">⌕</span><div><strong id="visibleStat">—</strong><small>En pantalla</small></div></div></div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><span>GENESIS <b>PRINT</b></span><span>Gestión de precios · Librería Génesis</span></footer>
+
+<dialog id="editDialog">
+  <form id="editForm" method="dialog">
+    <div class="modal-top"><div><span class="kicker">DATOS DEL PRODUCTO</span><h2 id="dialogTitle">Editar producto</h2></div><button type="button" class="modal-close" id="closeDialog" aria-label="Cerrar">×</button></div>
+    <input type="hidden" id="productId">
+    <label id="recordTypeField">Guardar en<select id="recordType"><option value="products">Librería</option><option value="services">Servicios de impresión</option></select></label>
+    <label id="newServiceCategoryField" class="hidden">Categoría del servicio<select id="newServiceCategory"><option>Entradas</option><option>Folletos</option><option>Epson planera</option><option>Epson tinta</option></select></label>
+    <label id="newServiceNameField" class="hidden">Nombre del servicio<input id="newServiceName" maxlength="180" placeholder="Ej. Impresión especial"></label>
+    <label id="newServiceOptionField" class="hidden">Tipo / opción<input id="newServiceOption" maxlength="100" placeholder="Ej. Autoadhesivas, A4, SF"></label>
+    <label id="newServiceQuantityField" class="hidden">Cantidad<input id="newServiceQuantity" maxlength="50" placeholder="Ej. 100 U"></label>
+    <div id="newServicePrices" class="hidden">
+      <label id="newServiceBwField">Precio blanco y negro / autoadhesivas<input id="newServiceBw" type="number" min="0" step="1"></label>
+      <label id="newServiceColorField">Precio color<input id="newServiceColor" type="number" min="0" step="1"></label>
+      <label id="newServiceSingleField">Precio simple faz / único<input id="newServiceSingle" type="number" min="0" step="1"></label>
+      <label id="newServiceDoubleField">Precio doble faz<input id="newServiceDouble" type="number" min="0" step="1"></label>
+    </div>
+    <label id="productCategoryField">Categoría<select id="productCategory"><option value="Sin categoría">Sin categoría</option></select></label>
+    <label id="productNameField">Nombre del producto<input id="productName" required maxlength="180" placeholder="Nombre del producto"></label>
+    <div class="price-panel">
+      <div class="price-panel-title"><span class="lock-icon">▣</span><div><strong>Precio base</strong><small>Costo con IVA · Solo visible en edición</small></div></div>
+      <input id="basePrice" type="number" min="0" step="1" inputmode="decimal" placeholder="Ingresar costo base">
+    </div>
+    <label>Precio público<input id="publicPrice" type="number" min="0" step="1" inputmode="decimal" placeholder="Ingresar precio de venta"></label>
+    <button type="button" id="doubleBtn" class="btn calc-btn">Calcular precio público × 2</button>
+    <p class="helper">El cálculo no se guarda automáticamente. Podés modificar el precio público manualmente antes de guardar.</p>
+    <div class="modal-actions"><button type="button" id="cancelBtn" class="btn cancel">Cancelar</button><button id="saveBtn" class="btn primary" type="submit">Guardar cambios</button></div>
+    <p id="saveError" class="error" role="alert"></p>
+  </form>
+</dialog>
+
+<dialog id="serviceEditDialog">
+  <form id="serviceEditForm" method="dialog">
+    <div class="modal-top"><div><span class="kicker">SERVICIOS DE IMPRESIÓN</span><h2 id="serviceEditTitle">Editar precio</h2><p id="serviceEditSubtitle" class="modal-subtitle"></p></div><button type="button" class="modal-close" id="serviceClose" aria-label="Cerrar">×</button></div>
+    <input type="hidden" id="serviceId">
+    <label>Nombre del servicio<input id="serviceNameEdit" maxlength="180" required></label>
+    <label>Tipo / opción<input id="serviceOptionEdit" maxlength="100"></label>
+    <label>Cantidad<input id="serviceQuantityEdit" maxlength="50"></label>
+    <label id="serviceBwField" class="hidden"><span id="serviceBwLabel">Blanco y negro</span><input id="serviceBw" type="number" min="0" step="1"></label>
+    <label id="serviceColorField" class="hidden"><span>Color</span><input id="serviceColor" type="number" min="0" step="1"></label>
+    <label id="serviceSingleField" class="hidden"><span id="serviceSingleLabel">Simple faz</span><input id="serviceSingle" type="number" min="0" step="1"></label>
+    <label id="serviceDoubleField" class="hidden"><span>Doble faz</span><input id="serviceDouble" type="number" min="0" step="1"></label>
+    <div class="modal-actions"><button type="button" class="btn cancel" id="serviceCancel">Cancelar</button><button type="submit" class="btn primary" id="serviceSaveBtn">Guardar precio</button></div>
+    <p id="serviceSaveError" class="error" role="alert"></p>
+  </form>
+</dialog>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="app.js?v=8"></script>
+</body>
+</html>

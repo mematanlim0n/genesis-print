@@ -1,0 +1,8 @@
+GENESIS - Actualización de orden alfabético
+
+Esta versión agrega un botón global A–Z en la barra superior de vistas.
+Al activarlo, ordena alfabéticamente los productos de Librería y los servicios dentro de cada categoría de Servicios de impresión. El orden de las cuatro categorías se conserva.
+Al volver a presionarlo, recupera el orden original. Es una preferencia de visualización local: no cambia ni actualiza registros en Supabase.
+
+Publicación: descomprimir el ZIP y subir a Netlify la carpeta que contiene index.html, app.js, styles.css, config.js y los demás archivos.
+No requiere ejecutar SQL ni hacer cambios en Supabase.

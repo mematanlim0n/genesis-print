@@ -1,0 +1,18 @@
+GENESIS - Actualización de vista TODO
+
+Esta versión conserva las funciones de edición, eliminación, alta de productos/servicios, categorías, acordeones y sincronización.
+
+NOVEDAD:
+- Vista TODO: Librería y Servicios de impresión en dos columnas iguales.
+- Botón LIBRERÍA: muestra esa lista a ancho completo.
+- Botón S.D.I.: muestra Servicios de impresión a ancho completo.
+- En pantallas angostas las dos columnas se apilan para mantener la legibilidad.
+
+PUBLICACIÓN:
+1. Descomprimir el ZIP.
+2. En Netlify > proyecto GENESIS > Deploys, arrastrar la carpeta GENESIS_v3_actualizacion (la que contiene index.html).
+3. Esperar el estado Published.
+
+SUPABASE:
+La app utiliza las tablas products y service_prices existentes.
+Si todavía no se ejecutó GENESIS_permisos_eliminacion.sql, ejecutarlo en Supabase SQL Editor para habilitar la eliminación. Si ya se ejecutó correctamente, no hace falta repetirlo.

@@ -1,0 +1,6 @@
+GENESIS - Actualización de Servicios de Impresión
+
+Esta versión presenta todas las categorías de servicios como tablas tipo planilla, en lugar de paneles desplegables. Se mantienen los botones de edición y eliminación por fila, la búsqueda, el orden alfabético, la vista TODO y la sincronización con Supabase.
+
+Publicación: descomprimir el ZIP y subir la carpeta que contiene index.html a Netlify Deploys.
+No requiere ejecutar SQL adicional.

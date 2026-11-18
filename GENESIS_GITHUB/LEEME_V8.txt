@@ -1,0 +1,21 @@
+GENESIS V8 - REDISEÑO DE INTERFAZ
+
+Esta versión aplica el diseño de escritorio aprobado:
+- Barra superior naranja con logo, estado de sincronización y cierre de sesión.
+- Menú lateral de navegación.
+- Tarjetas de resumen.
+- Paneles de Librería y Servicios de impresión en dos columnas.
+- Categorías rápidas, accesos a presupuestos, historial, alertas y papelera.
+
+PUBLICACIÓN
+1. Descomprimir el ZIP.
+2. Abrir la carpeta GENESIS_V8_REDENIO.
+3. Seleccionar TODO el contenido que está dentro de esa carpeta (index.html, app.js, styles.css, config.js, logo, etc.).
+4. Arrastrar ese contenido a Netlify Drop.
+5. Esperar el estado Published y recargar GENESIS con Ctrl + Shift + R.
+
+SUPABASE
+No ejecutar SQL adicional para este rediseño. Esta entrega conserva la configuración y los módulos de datos de la versión V7.1.
+
+IMPORTANTE
+Conservar una copia del ZIP anterior V7.1. Probar primero el inicio de sesión, carga de productos, servicios, edición y sincronización antes de usarlo en todas las computadoras.

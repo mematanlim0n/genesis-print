@@ -1,0 +1,1675 @@
+[
+  {
+    "name": "ABROCHADORA CHICA + GANCHITOS",
+    "base_price": 3225,
+    "public_price": 6450,
+    "source_row": 4,
+    "needs_review": false
+  },
+  {
+    "name": "ACUARELAS EZCO",
+    "base_price": 965,
+    "public_price": 1930,
+    "source_row": 5,
+    "needs_review": false
+  },
+  {
+    "name": "ACUARELAS FILGO",
+    "base_price": 1220,
+    "public_price": 2440,
+    "source_row": 6,
+    "needs_review": false
+  },
+  {
+    "name": "ACUARELAS KEYROAD",
+    "base_price": 815,
+    "public_price": 1630,
+    "source_row": 7,
+    "needs_review": false
+  },
+  {
+    "name": "ADHESIVO INSTANTANEO",
+    "base_price": 465,
+    "public_price": 930,
+    "source_row": 8,
+    "needs_review": false
+  },
+  {
+    "name": "ADHESIVO INSTANTANEO GEL",
+    "base_price": 795,
+    "public_price": 1590,
+    "source_row": 9,
+    "needs_review": false
+  },
+  {
+    "name": "ADHESIVO SINTETICO STAGOMA 50gr",
+    "base_price": 650,
+    "public_price": 1300,
+    "source_row": 10,
+    "needs_review": false
+  },
+  {
+    "name": "AFICHE COLORES",
+    "base_price": 550,
+    "public_price": 1100,
+    "source_row": 11,
+    "needs_review": false
+  },
+  {
+    "name": "AFICHE PAPEL MADERA",
+    "base_price": 500,
+    "public_price": 1000,
+    "source_row": 12,
+    "needs_review": false
+  },
+  {
+    "name": "APRIETA PAPEL 41MM UNIDAD",
+    "base_price": 200,
+    "public_price": 400,
+    "source_row": 13,
+    "needs_review": false
+  },
+  {
+    "name": "APRIETA PAPEL CAJA 41MM",
+    "base_price": 0,
+    "public_price": 0,
+    "source_row": 14,
+    "needs_review": false
+  },
+  {
+    "name": "AROS METALICOS DE CARPETA 40MM",
+    "base_price": 150,
+    "public_price": 300,
+    "source_row": 15,
+    "needs_review": false
+  },
+  {
+    "name": "AROS METALICOS DE CARPETA 50MM",
+    "base_price": 200,
+    "public_price": 400,
+    "source_row": 16,
+    "needs_review": false
+  },
+  {
+    "name": "BANDERITAS",
+    "base_price": 820,
+    "public_price": 1640,
+    "source_row": 17,
+    "needs_review": false
+  },
+  {
+    "name": "BANDITAS ELASTICAS X100GR",
+    "base_price": 1185,
+    "public_price": 2370,
+    "source_row": 18,
+    "needs_review": false
+  },
+  {
+    "name": "BARRA DE SILICONA POR UNIDAD",
+    "base_price": 350,
+    "public_price": 700,
+    "source_row": 19,
+    "needs_review": false
+  },
+  {
+    "name": "Bender 1",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 20,
+    "needs_review": false
+  },
+  {
+    "name": "Bender 2",
+    "base_price": 9000,
+    "public_price": 18000,
+    "source_row": 21,
+    "needs_review": false
+  },
+  {
+    "name": "BLOCK DE HOJAS A4 BLANCAS",
+    "base_price": 3600,
+    "public_price": 7200,
+    "source_row": 22,
+    "needs_review": false
+  },
+  {
+    "name": "BLOCK DE HOJAS A4 UNIVERSITARIO",
+    "base_price": 3600,
+    "public_price": 7200,
+    "source_row": 23,
+    "needs_review": false
+  },
+  {
+    "name": "BLOCK DE X480HOJAS EXITO Nº3",
+    "base_price": 0,
+    "public_price": 0,
+    "source_row": 24,
+    "needs_review": false
+  },
+  {
+    "name": "BLOCK DE X96HOJAS EXITO Nº3",
+    "base_price": 0,
+    "public_price": 0,
+    "source_row": 25,
+    "needs_review": false
+  },
+  {
+    "name": "BLOCK EXITO COLOR Nº5  X 24 H",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 26,
+    "needs_review": false
+  },
+  {
+    "name": "BORRADOR PIZARRA OLAMI",
+    "base_price": 850,
+    "public_price": 1700,
+    "source_row": 27,
+    "needs_review": false
+  },
+  {
+    "name": "BORRADOR TIZA",
+    "base_price": 1600,
+    "public_price": 3200,
+    "source_row": 28,
+    "needs_review": false
+  },
+  {
+    "name": "BROCHE MARIPOSA C/U",
+    "base_price": 100,
+    "public_price": 200,
+    "source_row": 29,
+    "needs_review": false
+  },
+  {
+    "name": "CARTAS SCRABEL, PICTIONARY, UNO, UNO NO MERCY",
+    "base_price": 2000,
+    "public_price": 4000,
+    "source_row": 30,
+    "needs_review": false
+  },
+  {
+    "name": "CALCULADORA CIENTIFICA",
+    "base_price": 6350,
+    "public_price": 12700,
+    "source_row": 31,
+    "needs_review": false
+  },
+  {
+    "name": "CALCULADORA DE BOLSILLO (chiquita)",
+    "base_price": 3650,
+    "public_price": 7300,
+    "source_row": 32,
+    "needs_review": false
+  },
+  {
+    "name": "CANDADO DE HIERRO 20MM",
+    "base_price": 1220,
+    "public_price": 2440,
+    "source_row": 33,
+    "needs_review": false
+  },
+  {
+    "name": "CANDADO DE HIERRO 38MM",
+    "base_price": 1820,
+    "public_price": 3640,
+    "source_row": 34,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA \"L\" COLOR Y TRANSPARENTE",
+    "base_price": 300,
+    "public_price": 600,
+    "source_row": 35,
+    "needs_review": false
+  },
+  {
+    "name": "carpeta 3 solapas colores A4",
+    "base_price": 541,
+    "public_price": 1082,
+    "source_row": 36,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA 3 SOLAPAS COLORES OFICIO",
+    "base_price": 573,
+    "public_price": 1146,
+    "source_row": 37,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA 3 SOLAPAS OFICIO C/ ELASTICO",
+    "base_price": 1264,
+    "public_price": 2528,
+    "source_row": 38,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA BASE OPACA LAMA",
+    "base_price": 400,
+    "public_price": 800,
+    "source_row": 39,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA CON FOLIOS (10)",
+    "base_price": 1376,
+    "public_price": 2752,
+    "source_row": 40,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA CON FOLIOS (20)",
+    "base_price": 2220,
+    "public_price": 4440,
+    "source_row": 41,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA CON FOLIOS (30)",
+    "base_price": 2665,
+    "public_price": 5330,
+    "source_row": 42,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA CON FOLIOS (40)",
+    "base_price": 3400,
+    "public_price": 6800,
+    "source_row": 43,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA CON VAINA TRANSPARENTE",
+    "base_price": 510,
+    "public_price": 1020,
+    "source_row": 44,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA DE DIBUJO Nº5 DOS TAPAS",
+    "base_price": 1850,
+    "public_price": 3700,
+    "source_row": 45,
+    "needs_review": false
+  },
+  {
+    "name": "CARPETA Nº3 DOS TAPAS PLASTICO (COLORES Y PASTEL)",
+    "base_price": 1200,
+    "public_price": 2400,
+    "source_row": 46,
+    "needs_review": false
+  },
+  {
+    "name": "CARTAS CASINO",
+    "base_price": 0,
+    "public_price": 3000,
+    "source_row": 47,
+    "needs_review": false
+  },
+  {
+    "name": "CARTAS HABANA",
+    "base_price": 0,
+    "public_price": 3000,
+    "source_row": 48,
+    "needs_review": false
+  },
+  {
+    "name": "CARTUCHERA PLANA",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 49,
+    "needs_review": false
+  },
+  {
+    "name": "CARTUCHERA TUBO",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 50,
+    "needs_review": false
+  },
+  {
+    "name": "CARTULINA",
+    "base_price": 350,
+    "public_price": 700,
+    "source_row": 51,
+    "needs_review": false
+  },
+  {
+    "name": "CAT A",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 52,
+    "needs_review": false
+  },
+  {
+    "name": "CARTULINA DORADA",
+    "base_price": 650,
+    "public_price": 1300,
+    "source_row": 53,
+    "needs_review": false
+  },
+  {
+    "name": "CHINCHES CAJA X50 U",
+    "base_price": 650,
+    "public_price": 1300,
+    "source_row": 54,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA CORRECTORA *12M",
+    "base_price": 1358,
+    "public_price": 2717,
+    "source_row": 55,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA CORRECTORA *6M",
+    "base_price": 1058,
+    "public_price": 2117,
+    "source_row": 56,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA DE PAPEL AUCA 48 X 50",
+    "base_price": 4300,
+    "public_price": 8600,
+    "source_row": 57,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA DE PAPEL  24X40",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 58,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA DE PAPEL CANDELA 12 x 50",
+    "base_price": 1000,
+    "public_price": 2000,
+    "source_row": 59,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA DE PAPEL CANDELA 18 X 50",
+    "base_price": 1450,
+    "public_price": 2900,
+    "source_row": 60,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA DE PAPEL CANDELA 24 X 50",
+    "base_price": 1890,
+    "public_price": 3780,
+    "source_row": 61,
+    "needs_review": false
+  },
+  {
+    "name": "Cinta EMBALAR (marron gruesa) CANDELA",
+    "base_price": 1135,
+    "public_price": 2270,
+    "source_row": 62,
+    "needs_review": false
+  },
+  {
+    "name": "Cinta EMBALAR (transparente) CANDELA",
+    "base_price": 1100,
+    "public_price": 2200,
+    "source_row": 63,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA KIVE DOBLE FAZ 12X30",
+    "base_price": 3110,
+    "public_price": 6220,
+    "source_row": 64,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA KIVE DOBLE FAZ 18X30",
+    "base_price": 4650,
+    "public_price": 9300,
+    "source_row": 65,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA SCOCH 12x25MM chiquita",
+    "base_price": 375,
+    "public_price": 750,
+    "source_row": 66,
+    "needs_review": false
+  },
+  {
+    "name": "Cinta SCOCH 24X40 CANDELA",
+    "base_price": 430,
+    "public_price": 860,
+    "source_row": 67,
+    "needs_review": false
+  },
+  {
+    "name": "Cinta scoch transparente",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 68,
+    "needs_review": false
+  },
+  {
+    "name": "CINTA SCOCH 48x90 MM",
+    "base_price": 1850,
+    "public_price": 3700,
+    "source_row": 69,
+    "needs_review": false
+  },
+  {
+    "name": "CLIPS Nº5 CAJA X100U",
+    "base_price": 675,
+    "public_price": 1350,
+    "source_row": 70,
+    "needs_review": false
+  },
+  {
+    "name": "COMPAS MAPED",
+    "base_price": 1700,
+    "public_price": 3400,
+    "source_row": 71,
+    "needs_review": false
+  },
+  {
+    "name": "COMPAS PLASTICO",
+    "base_price": 700,
+    "public_price": 1400,
+    "source_row": 72,
+    "needs_review": false
+  },
+  {
+    "name": "CONSTITUCION NACIONAL",
+    "base_price": 2700,
+    "public_price": 5400,
+    "source_row": 73,
+    "needs_review": false
+  },
+  {
+    "name": "CORRECTOR FILGO",
+    "base_price": 438,
+    "public_price": 875,
+    "source_row": 74,
+    "needs_review": false
+  },
+  {
+    "name": "CORRECTOR INTRO",
+    "base_price": 269,
+    "public_price": 538,
+    "source_row": 75,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO A5 84 H 16x21",
+    "base_price": 3000,
+    "public_price": 6000,
+    "source_row": 76,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO CHICO GLORIA TAPA DURA 42H",
+    "base_price": 2750,
+    "public_price": 5500,
+    "source_row": 77,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO CHICO GLORIA TAPA DURA 84H",
+    "base_price": 3950,
+    "public_price": 7900,
+    "source_row": 78,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO GLORIA TAPA BLANDA X24 HOJAS",
+    "base_price": 840,
+    "public_price": 1680,
+    "source_row": 79,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO GLORIA TAPA BLANDA X48 HOJAS",
+    "base_price": 1090,
+    "public_price": 2180,
+    "source_row": 80,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO GLORIA TAPA BLANDA X84 HOJAS",
+    "base_price": 1825,
+    "public_price": 3650,
+    "source_row": 81,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO UNIVERSITARIO A4 ASAMBLEA",
+    "base_price": 1592,
+    "public_price": 3184,
+    "source_row": 82,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO UNIVERSITARIO A4 avon",
+    "base_price": 1750,
+    "public_price": 3500,
+    "source_row": 83,
+    "needs_review": false
+  },
+  {
+    "name": "CUADERNO UNIVERSITARIO A5 46H 16X21",
+    "base_price": 1610,
+    "public_price": 3220,
+    "source_row": 84,
+    "needs_review": false
+  },
+  {
+    "name": "CUTTER DELI",
+    "base_price": 1100,
+    "public_price": 2200,
+    "source_row": 85,
+    "needs_review": false
+  },
+  {
+    "name": "DADO BLANCO 12mm",
+    "base_price": 188,
+    "public_price": 376,
+    "source_row": 86,
+    "needs_review": false
+  },
+  {
+    "name": "DADO BLANCO 16mm",
+    "base_price": 278,
+    "public_price": 556,
+    "source_row": 87,
+    "needs_review": false
+  },
+  {
+    "name": "DADO BLANCO 19mm",
+    "base_price": 465,
+    "public_price": 930,
+    "source_row": 88,
+    "needs_review": false
+  },
+  {
+    "name": "DICCIONARIO ESCOLAR",
+    "base_price": 4375,
+    "public_price": 8750,
+    "source_row": 89,
+    "needs_review": false
+  },
+  {
+    "name": "DIP COMP.ANILLADO CON LAS ILUSTRACIONES",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 90,
+    "needs_review": false
+  },
+  {
+    "name": "ENCENDEDOR",
+    "base_price": 250,
+    "public_price": 500,
+    "source_row": 91,
+    "needs_review": false
+  },
+  {
+    "name": "ESCARAPELA",
+    "base_price": 100,
+    "public_price": 200,
+    "source_row": 92,
+    "needs_review": false
+  },
+  {
+    "name": "ETIQUETA ECO PRECIOS X Paquete",
+    "base_price": 530,
+    "public_price": 1060,
+    "source_row": 93,
+    "needs_review": false
+  },
+  {
+    "name": "ETIQUETA RY PRECIOS X Paquete",
+    "base_price": 750,
+    "public_price": 1500,
+    "source_row": 94,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRAS PACK X6U (marcadores escolares)",
+    "base_price": 904,
+    "public_price": 1808,
+    "source_row": 95,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRON FILGO AL AGUA 052",
+    "base_price": 700,
+    "public_price": 1400,
+    "source_row": 96,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRON FILGO PARA PIZARRA 058",
+    "base_price": 850,
+    "public_price": 1700,
+    "source_row": 97,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRON FILGO PERMANENTE 040 MEDIO",
+    "base_price": 700,
+    "public_price": 1400,
+    "source_row": 98,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRON FILGO PERMANENTE 041 FINO",
+    "base_price": 960,
+    "public_price": 1920,
+    "source_row": 99,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRON FILGO PERMANENTE 042 DOBLE PUNTA",
+    "base_price": 1054,
+    "public_price": 2108,
+    "source_row": 100,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRON FILGO PERMANENTE 050 y 051",
+    "base_price": 717,
+    "public_price": 1433,
+    "source_row": 101,
+    "needs_review": false
+  },
+  {
+    "name": "FIBRON OLAMI PARA PIZARRA RECARGABLE",
+    "base_price": 658,
+    "public_price": 1317,
+    "source_row": 102,
+    "needs_review": false
+  },
+  {
+    "name": "FICHA Nº1 x 100",
+    "base_price": 895,
+    "public_price": 1790,
+    "source_row": 103,
+    "needs_review": false
+  },
+  {
+    "name": "FICHA Nº2 X 100",
+    "base_price": 1280,
+    "public_price": 2560,
+    "source_row": 104,
+    "needs_review": false
+  },
+  {
+    "name": "FICHA Nº3 X100",
+    "base_price": 2130,
+    "public_price": 4260,
+    "source_row": 105,
+    "needs_review": false
+  },
+  {
+    "name": "FOLIO A4 COMÚN",
+    "base_price": 70,
+    "public_price": 141,
+    "source_row": 106,
+    "needs_review": false
+  },
+  {
+    "name": "FOLIO A4 REFORZADO",
+    "base_price": 178,
+    "public_price": 356,
+    "source_row": 107,
+    "needs_review": false
+  },
+  {
+    "name": "FOLIO Nº3",
+    "base_price": 100,
+    "public_price": 200,
+    "source_row": 108,
+    "needs_review": false
+  },
+  {
+    "name": "FOLIO OFICIO COMÚN",
+    "base_price": 84,
+    "public_price": 168,
+    "source_row": 109,
+    "needs_review": false
+  },
+  {
+    "name": "FOLIO OFICIO REFORZADO",
+    "base_price": 204,
+    "public_price": 408,
+    "source_row": 110,
+    "needs_review": false
+  },
+  {
+    "name": "GANCHITOS EZCO Nº 10",
+    "base_price": 330,
+    "public_price": 660,
+    "source_row": 111,
+    "needs_review": false
+  },
+  {
+    "name": "GANCHITOS GRAP Nº 10/50",
+    "base_price": 850,
+    "public_price": 1700,
+    "source_row": 112,
+    "needs_review": false
+  },
+  {
+    "name": "ff",
+    "base_price": 1000,
+    "public_price": 2000,
+    "source_row": 113,
+    "needs_review": false
+  },
+  {
+    "name": "GOMA BLANCA FILGO TEK",
+    "base_price": 300,
+    "public_price": 600,
+    "source_row": 114,
+    "needs_review": false
+  },
+  {
+    "name": "GOMA DE BORRAR GIOTTO PASTEL",
+    "base_price": 162,
+    "public_price": 325,
+    "source_row": 115,
+    "needs_review": false
+  },
+  {
+    "name": "GOMA DE BORRAR MAPED BLANCA MINI",
+    "base_price": 247,
+    "public_price": 494,
+    "source_row": 116,
+    "needs_review": false
+  },
+  {
+    "name": "GOMA DELI MAGIC ANIMALITOS X UNIDAD",
+    "base_price": 191,
+    "public_price": 381,
+    "source_row": 117,
+    "needs_review": false
+  },
+  {
+    "name": "GOMA DELI MAGIC FLORCITAS X UNIDAD",
+    "base_price": 221,
+    "public_price": 442,
+    "source_row": 118,
+    "needs_review": false
+  },
+  {
+    "name": "GOMA EVA GLITTER",
+    "base_price": 782,
+    "public_price": 1564,
+    "source_row": 119,
+    "needs_review": false
+  },
+  {
+    "name": "GOMA EVA LISA",
+    "base_price": 421,
+    "public_price": 841,
+    "source_row": 120,
+    "needs_review": false
+  },
+  {
+    "name": "HOJAS BLANCAS N3 LUMA",
+    "base_price": 350,
+    "public_price": 700,
+    "source_row": 121,
+    "needs_review": false
+  },
+  {
+    "name": "HOJAS BLANCAS N5 8U",
+    "base_price": 750,
+    "public_price": 1500,
+    "source_row": 122,
+    "needs_review": false
+  },
+  {
+    "name": "HOJAS COLORES N5 X8U",
+    "base_price": 430,
+    "public_price": 860,
+    "source_row": 123,
+    "needs_review": false
+  },
+  {
+    "name": "HOJAS DE CALCAR N3",
+    "base_price": 750,
+    "public_price": 1500,
+    "source_row": 124,
+    "needs_review": false
+  },
+  {
+    "name": "HOJAS DE CALCAR N5",
+    "base_price": 1225,
+    "public_price": 2450,
+    "source_row": 125,
+    "needs_review": false
+  },
+  {
+    "name": "LAMINAS CAT A",
+    "base_price": 3500,
+    "public_price": 7000,
+    "source_row": 126,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERA CON GEL",
+    "base_price": 583,
+    "public_price": 1167,
+    "source_row": 127,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERA FILGO  026 COLORES",
+    "base_price": 186,
+    "public_price": 372,
+    "source_row": 128,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERA FILGO FASTGRIP RETRACTIL azul y neg.",
+    "base_price": 580,
+    "public_price": 1160,
+    "source_row": 129,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERA FILGO FASTRUCK RETRACTIL azul y neg.",
+    "base_price": 400,
+    "public_price": 800,
+    "source_row": 130,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERA FILGO STICK 025 AZUL",
+    "base_price": 156,
+    "public_price": 312,
+    "source_row": 131,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERA GUINZA 027",
+    "base_price": 528,
+    "public_price": 1056,
+    "source_row": 132,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERAS BIC ROUND STIC",
+    "base_price": 200,
+    "public_price": 400,
+    "source_row": 133,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERAS BIC TRAZO FINO",
+    "base_price": 585,
+    "public_price": 1170,
+    "source_row": 134,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERAS BIC TRAZO GRUESO",
+    "base_price": 510,
+    "public_price": 1020,
+    "source_row": 135,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERAS BIC ULTRA FINO",
+    "base_price": 550,
+    "public_price": 1100,
+    "source_row": 136,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICERAS BORRABLES",
+    "base_price": 1233,
+    "public_price": 2467,
+    "source_row": 137,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICES DE COLORES X 12 INTRO",
+    "base_price": 720,
+    "public_price": 1440,
+    "source_row": 138,
+    "needs_review": false
+  },
+  {
+    "name": "LAPICES FILGO COLORES  X 12",
+    "base_price": 1200,
+    "public_price": 2400,
+    "source_row": 139,
+    "needs_review": false
+  },
+  {
+    "name": "LAPIZ  FILGO 2B/6B/B/2H/4B/HB/",
+    "base_price": 267,
+    "public_price": 533,
+    "source_row": 140,
+    "needs_review": false
+  },
+  {
+    "name": "LAPIZ DELI NEON",
+    "base_price": 158,
+    "public_price": 317,
+    "source_row": 141,
+    "needs_review": false
+  },
+  {
+    "name": "LAPIZ FILGO C/ GOMA",
+    "base_price": 142,
+    "public_price": 283,
+    "source_row": 142,
+    "needs_review": false
+  },
+  {
+    "name": "LAPIZ FILGO CAJA GRADUADOS (cajita de 6 lapices)",
+    "base_price": 150,
+    "public_price": 300,
+    "source_row": 143,
+    "needs_review": false
+  },
+  {
+    "name": "LAPIZ FILGO SIN GOMA",
+    "base_price": 94,
+    "public_price": 188,
+    "source_row": 144,
+    "needs_review": false
+  },
+  {
+    "name": "LAPIZ GRAFITO KIRUKI NEON",
+    "base_price": 206,
+    "public_price": 411,
+    "source_row": 145,
+    "needs_review": false
+  },
+  {
+    "name": "LIBRETA ALFA CON ESPIRAL 40H",
+    "base_price": 1055,
+    "public_price": 2110,
+    "source_row": 146,
+    "needs_review": false
+  },
+  {
+    "name": "LIBRO ACTA",
+    "base_price": 6500,
+    "public_price": 13000,
+    "source_row": 147,
+    "needs_review": false
+  },
+  {
+    "name": "MAPA Nº3",
+    "base_price": 100,
+    "public_price": 200,
+    "source_row": 148,
+    "needs_review": false
+  },
+  {
+    "name": "MAPA Nº5",
+    "base_price": 200,
+    "public_price": 400,
+    "source_row": 149,
+    "needs_review": false
+  },
+  {
+    "name": "MAPA Nº6",
+    "base_price": 538,
+    "public_price": 1076,
+    "source_row": 150,
+    "needs_review": false
+  },
+  {
+    "name": "MICROFIBRA FILGO  038",
+    "base_price": 558,
+    "public_price": 1115,
+    "source_row": 151,
+    "needs_review": false
+  },
+  {
+    "name": "MINAS 0,5",
+    "base_price": 333,
+    "public_price": 667,
+    "source_row": 152,
+    "needs_review": false
+  },
+  {
+    "name": "MINAS 0,7",
+    "base_price": 333,
+    "public_price": 666,
+    "source_row": 153,
+    "needs_review": false
+  },
+  {
+    "name": "NAIPES CASINO",
+    "base_price": 2500,
+    "public_price": 5000,
+    "source_row": 154,
+    "needs_review": false
+  },
+  {
+    "name": "NOTA ADHESIVA AMARILLA PIZZINI",
+    "base_price": 975,
+    "public_price": 1950,
+    "source_row": 155,
+    "needs_review": false
+  },
+  {
+    "name": "NOTAS ADHESIVA AMARILLA EZCO",
+    "base_price": 620,
+    "public_price": 1240,
+    "source_row": 156,
+    "needs_review": false
+  },
+  {
+    "name": "NOTAS ADHESIVA NEÓN EZCO X100",
+    "base_price": 930,
+    "public_price": 1860,
+    "source_row": 157,
+    "needs_review": false
+  },
+  {
+    "name": "NOTAS ADHESIVA NEÓN EZCO X300",
+    "base_price": 2900,
+    "public_price": 5800,
+    "source_row": 158,
+    "needs_review": false
+  },
+  {
+    "name": "OJALILLOS AVERY X plancha",
+    "base_price": 87,
+    "public_price": 173,
+    "source_row": 159,
+    "needs_review": false
+  },
+  {
+    "name": "PACK DE GEOMETRIA 20CM",
+    "base_price": 2100,
+    "public_price": 4200,
+    "source_row": 160,
+    "needs_review": false
+  },
+  {
+    "name": "Pack de reglas (fluor rosado, amarillo,etc) (son tres reglas juntas)",
+    "base_price": 2100,
+    "public_price": 4200,
+    "source_row": 161,
+    "needs_review": false
+  },
+  {
+    "name": "PAPEL CARBONICO",
+    "base_price": 400,
+    "public_price": 800,
+    "source_row": 162,
+    "needs_review": false
+  },
+  {
+    "name": "PAPEL CELOFAN COLOR",
+    "base_price": 380,
+    "public_price": 760,
+    "source_row": 163,
+    "needs_review": false
+  },
+  {
+    "name": "PAPEL CELOFAN CRISTAL",
+    "base_price": 380,
+    "public_price": 760,
+    "source_row": 164,
+    "needs_review": false
+  },
+  {
+    "name": "PAPEL CREPE",
+    "base_price": 270,
+    "public_price": 540,
+    "source_row": 165,
+    "needs_review": false
+  },
+  {
+    "name": "PAPEL GLACE FLUO",
+    "base_price": 200,
+    "public_price": 400,
+    "source_row": 166,
+    "needs_review": false
+  },
+  {
+    "name": "PAPEL GLACE METALIZADO",
+    "base_price": 400,
+    "public_price": 800,
+    "source_row": 167,
+    "needs_review": false
+  },
+  {
+    "name": "PEGAMENTO EN BARRA FILGO",
+    "base_price": 730,
+    "public_price": 1460,
+    "source_row": 168,
+    "needs_review": false
+  },
+  {
+    "name": "PILAS  9V CANDELA",
+    "base_price": 2450,
+    "public_price": 4900,
+    "source_row": 169,
+    "needs_review": false
+  },
+  {
+    "name": "PILAS  AA CANDELA",
+    "base_price": 460,
+    "public_price": 920,
+    "source_row": 170,
+    "needs_review": false
+  },
+  {
+    "name": "PILAS  AAA CANDELA",
+    "base_price": 460,
+    "public_price": 920,
+    "source_row": 171,
+    "needs_review": false
+  },
+  {
+    "name": "PILAS  C CANDELA",
+    "base_price": 1570,
+    "public_price": 3140,
+    "source_row": 172,
+    "needs_review": false
+  },
+  {
+    "name": "PILAS  D CANDELA",
+    "base_price": 2300,
+    "public_price": 4600,
+    "source_row": 173,
+    "needs_review": false
+  },
+  {
+    "name": "PINCEL LAMA PELO PONY CHATO Nº02 x Unidad",
+    "base_price": 243,
+    "public_price": 487,
+    "source_row": 174,
+    "needs_review": false
+  },
+  {
+    "name": "PINCEL LAMA PELO PONY CHATO Nº04 x Unidad",
+    "base_price": 254,
+    "public_price": 508,
+    "source_row": 175,
+    "needs_review": false
+  },
+  {
+    "name": "PINCEL LAMA PELO PONY CHATO Nº06 x Unidad",
+    "base_price": 300,
+    "public_price": 600,
+    "source_row": 176,
+    "needs_review": false
+  },
+  {
+    "name": "PINCEL LAMA PELO PONY CHATO Nº08 x Unidad",
+    "base_price": 378,
+    "public_price": 755,
+    "source_row": 177,
+    "needs_review": false
+  },
+  {
+    "name": "PINCEL LAMA PELO PONY CHATO Nº10 x Unidad",
+    "base_price": 446,
+    "public_price": 892,
+    "source_row": 178,
+    "needs_review": false
+  },
+  {
+    "name": "PINCEL LAMA PELO PONY CHATO Nº12 x Unidad",
+    "base_price": 558,
+    "public_price": 1117,
+    "source_row": 179,
+    "needs_review": false
+  },
+  {
+    "name": "PINCELETA Nº 2",
+    "base_price": 369,
+    "public_price": 738,
+    "source_row": 180,
+    "needs_review": false
+  },
+  {
+    "name": "PINCELETA Nº 4",
+    "base_price": 559,
+    "public_price": 1118,
+    "source_row": 181,
+    "needs_review": false
+  },
+  {
+    "name": "PINCELETA Nº 8",
+    "base_price": 1125,
+    "public_price": 2250,
+    "source_row": 182,
+    "needs_review": false
+  },
+  {
+    "name": "PISTOLA ENCOLADORA 10W CHICA",
+    "base_price": 3600,
+    "public_price": 7200,
+    "source_row": 183,
+    "needs_review": false
+  },
+  {
+    "name": "PISTOLA ENCOLADORA 40W GRANDE",
+    "base_price": 5060,
+    "public_price": 10120,
+    "source_row": 184,
+    "needs_review": false
+  },
+  {
+    "name": "PLASTICOLA X50GR",
+    "base_price": 470,
+    "public_price": 940,
+    "source_row": 185,
+    "needs_review": false
+  },
+  {
+    "name": "PLASTIFICADO A3",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 186,
+    "needs_review": false
+  },
+  {
+    "name": "PLASTIFICADO A4",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 187,
+    "needs_review": false
+  },
+  {
+    "name": "PLASTIFICADO A5",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 188,
+    "needs_review": false
+  },
+  {
+    "name": "PLASTIFICADO CARNET",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 189,
+    "needs_review": false
+  },
+  {
+    "name": "PLASTILINA INDIVIDUAL",
+    "base_price": 183,
+    "public_price": 367,
+    "source_row": 190,
+    "needs_review": false
+  },
+  {
+    "name": "PORTABLOCK EZCO A4",
+    "base_price": 2845,
+    "public_price": 5690,
+    "source_row": 191,
+    "needs_review": false
+  },
+  {
+    "name": "PORTASUBE",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 192,
+    "needs_review": false
+  },
+  {
+    "name": "PORTACREDENCIAL",
+    "base_price": 180,
+    "public_price": 360,
+    "source_row": 193,
+    "needs_review": false
+  },
+  {
+    "name": "PORTAMINA ESCO LM-225",
+    "base_price": 460,
+    "public_price": 920,
+    "source_row": 194,
+    "needs_review": false
+  },
+  {
+    "name": "PORTAMINA FILGO h-205",
+    "base_price": 1458,
+    "public_price": 2917,
+    "source_row": 195,
+    "needs_review": false
+  },
+  {
+    "name": "PORTAPLANOS",
+    "base_price": 3500,
+    "public_price": 7000,
+    "source_row": 196,
+    "needs_review": false
+  },
+  {
+    "name": "PRECINTOS",
+    "base_price": 450,
+    "public_price": 900,
+    "source_row": 197,
+    "needs_review": false
+  },
+  {
+    "name": "REGLA ESCUADRA",
+    "base_price": 615,
+    "public_price": 1230,
+    "source_row": 198,
+    "needs_review": false
+  },
+  {
+    "name": "REGLA EZCO 15 CM",
+    "base_price": 255,
+    "public_price": 510,
+    "source_row": 199,
+    "needs_review": false
+  },
+  {
+    "name": "REGLA EZCO 30 CM",
+    "base_price": 425,
+    "public_price": 850,
+    "source_row": 200,
+    "needs_review": false
+  },
+  {
+    "name": "REPUESTO AMERICA X 96H CUADRICULADO",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 201,
+    "needs_review": false
+  },
+  {
+    "name": "REPUESTO HOJA Nº5 COLOR X 6 H",
+    "base_price": 835,
+    "public_price": 1670,
+    "source_row": 202,
+    "needs_review": false
+  },
+  {
+    "name": "REPUESTO LAPICERA BORRABLE (c/U)",
+    "base_price": 500,
+    "public_price": 1000,
+    "source_row": 203,
+    "needs_review": false
+  },
+  {
+    "name": "REPUESTO Nº5 DIBUJO X8H BLANCO",
+    "base_price": 760,
+    "public_price": 1520,
+    "source_row": 204,
+    "needs_review": false
+  },
+  {
+    "name": "RESALTADOR LIGHTER 300",
+    "base_price": 167,
+    "public_price": 333,
+    "source_row": 205,
+    "needs_review": false
+  },
+  {
+    "name": "RESALTADORES TRABI GRUESOS HIGH TEXTER / PASTEL",
+    "base_price": 500,
+    "public_price": 1000,
+    "source_row": 206,
+    "needs_review": true
+  },
+  {
+    "name": "RESMA A3 AUTOR",
+    "base_price": 10000,
+    "public_price": 20000,
+    "source_row": 207,
+    "needs_review": false
+  },
+  {
+    "name": "RESMA A4 autor 75Gr",
+    "base_price": 4500,
+    "public_price": 9000,
+    "source_row": 208,
+    "needs_review": false
+  },
+  {
+    "name": "RESMA A4 OFICIO 80Gr",
+    "base_price": 5000,
+    "public_price": 10000,
+    "source_row": 209,
+    "needs_review": false
+  },
+  {
+    "name": "ROLLO PARA FAX",
+    "base_price": 2000,
+    "public_price": 4000,
+    "source_row": 210,
+    "needs_review": false
+  },
+  {
+    "name": "SEPARADOR ESCOLAR Nº3",
+    "base_price": 600,
+    "public_price": 1200,
+    "source_row": 211,
+    "needs_review": false
+  },
+  {
+    "name": "SILICONA LIQUIDA EZCO 100 ML",
+    "base_price": 440,
+    "public_price": 880,
+    "source_row": 212,
+    "needs_review": false
+  },
+  {
+    "name": "SILICONA LIQUIDA FILGO 300ML",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 213,
+    "needs_review": false
+  },
+  {
+    "name": "SOBRE COMUN BLANCOS",
+    "base_price": 100,
+    "public_price": 200,
+    "source_row": 214,
+    "needs_review": false
+  },
+  {
+    "name": "SOBRE PAPEL MADERA A3",
+    "base_price": 385,
+    "public_price": 770,
+    "source_row": 215,
+    "needs_review": false
+  },
+  {
+    "name": "SOBRE PAPEL MADERA A4",
+    "base_price": 150,
+    "public_price": 300,
+    "source_row": 216,
+    "needs_review": false
+  },
+  {
+    "name": "SOBRE PAPEL MADERA OFICIO",
+    "base_price": 175,
+    "public_price": 350,
+    "source_row": 217,
+    "needs_review": false
+  },
+  {
+    "name": "TABLA PERIODICA",
+    "base_price": 420,
+    "public_price": 840,
+    "source_row": 218,
+    "needs_review": false
+  },
+  {
+    "name": "TALONARIO 1 AL 100 RIFAS",
+    "base_price": 350,
+    "public_price": 700,
+    "source_row": 219,
+    "needs_review": false
+  },
+  {
+    "name": "TALONARIO MIL28 RECIBO DUPLICADO",
+    "base_price": 1400,
+    "public_price": 2800,
+    "source_row": 220,
+    "needs_review": false
+  },
+  {
+    "name": "TEMPERA ACUAREL 9GR X10U",
+    "base_price": 170,
+    "public_price": 340,
+    "source_row": 221,
+    "needs_review": false
+  },
+  {
+    "name": "TEMPERAS SEÑORITA SURTIDO",
+    "base_price": 150,
+    "public_price": 300,
+    "source_row": 222,
+    "needs_review": false
+  },
+  {
+    "name": "TIJERA EZCO 17CM",
+    "base_price": 1490,
+    "public_price": 2980,
+    "source_row": 223,
+    "needs_review": false
+  },
+  {
+    "name": "TIJERA EZCO 21CM",
+    "base_price": 2810,
+    "public_price": 5620,
+    "source_row": 224,
+    "needs_review": false
+  },
+  {
+    "name": "TIJERA EZCO INNOVA 18 CM",
+    "base_price": 1936,
+    "public_price": 3872,
+    "source_row": 225,
+    "needs_review": false
+  },
+  {
+    "name": "TIJERA FILGO PINTO DISPLAY X24",
+    "base_price": 10,
+    "public_price": 20,
+    "source_row": 226,
+    "needs_review": false
+  },
+  {
+    "name": "TIJERA MAPED",
+    "base_price": 958,
+    "public_price": 1917,
+    "source_row": 227,
+    "needs_review": false
+  },
+  {
+    "name": "TINTA PARA PIZARRA OLAMI 20CC",
+    "base_price": 1800,
+    "public_price": 3600,
+    "source_row": 228,
+    "needs_review": false
+  },
+  {
+    "name": "TIRA CARTON DE BINGO X1",
+    "base_price": 20,
+    "public_price": 40,
+    "source_row": 229,
+    "needs_review": false
+  },
+  {
+    "name": "TIZAS FILGO BLANCA X 10",
+    "base_price": 480,
+    "public_price": 960,
+    "source_row": 230,
+    "needs_review": false
+  },
+  {
+    "name": "TIZAS FILGO COLOR X 10",
+    "base_price": 560,
+    "public_price": 1120,
+    "source_row": 231,
+    "needs_review": false
+  },
+  {
+    "name": "TIZAS GIOTTO BLANCAS x 10 hipoalargenicas",
+    "base_price": 785,
+    "public_price": 1570,
+    "source_row": 232,
+    "needs_review": false
+  },
+  {
+    "name": "TIZAS GIOTTO COLOR x 10 hipoalargenicas",
+    "base_price": 1185,
+    "public_price": 2370,
+    "source_row": 233,
+    "needs_review": false
+  },
+  {
+    "name": "TRANSPORTADOR",
+    "base_price": 335,
+    "public_price": 670,
+    "source_row": 234,
+    "needs_review": false
+  },
+  {
+    "name": "TRANSPORTADOR MAPED",
+    "base_price": 1350,
+    "public_price": 2700,
+    "source_row": 235,
+    "needs_review": false
+  },
+  {
+    "name": "ALBUM MUNDIAL",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 236,
+    "needs_review": false
+  },
+  {
+    "name": "FIGURITAS MUNDIAL",
+    "base_price": null,
+    "public_price": 0,
+    "source_row": 237,
+    "needs_review": false
+  },
+  {
+    "name": "Voligoma",
+    "base_price": null,
+    "public_price": null,
+    "source_row": 238,
+    "needs_review": true
+  },
+  {
+    "name": "TIJERA EZCO 25 CM",
+    "base_price": 2810,
+    "public_price": 5620,
+    "source_row": 239,
+    "needs_review": false
+  },
+  {
+    "name": "Voligoma de 50ml",
+    "base_price": 1955,
+    "public_price": 3910,
+    "source_row": 240,
+    "needs_review": false
+  },
+  {
+    "name": "SAHUMERIOS",
+    "base_price": 1030,
+    "public_price": 2060,
+    "source_row": 241,
+    "needs_review": false
+  },
+  {
+    "name": "ABROCHADORA SUELTA",
+    "base_price": 1330,
+    "public_price": 2660,
+    "source_row": 242,
+    "needs_review": false
+  }
+]

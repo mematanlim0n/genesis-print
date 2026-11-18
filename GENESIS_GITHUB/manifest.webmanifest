@@ -1,0 +1,17 @@
+{
+  "name": "GENESIS | Lista de precios",
+  "short_name": "GENESIS",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#f47b20",
+  "description": "Lista de precios compartida de Librería Génesis",
+  "icons": [
+    {
+      "src": "logo-genesis.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

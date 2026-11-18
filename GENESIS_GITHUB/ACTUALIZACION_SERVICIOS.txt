@@ -1,0 +1,26 @@
+ACTUALIZACION GENESIS - SERVICIOS DE IMPRESION
+
+IMPORTANTE: antes de publicar esta version, crear la tabla de servicios en Supabase.
+
+PASO 1 - SUPABASE
+1. Entrar al proyecto GENESIS en Supabase.
+2. Abrir SQL Editor.
+3. Abrir el archivo services_setup.sql de este paquete.
+4. Copiar todo su contenido, pegarlo en una consulta nueva y presionar RUN.
+5. Esperar el mensaje de ejecucion exitosa.
+
+Este SQL crea una tabla separada llamada service_prices, habilita acceso solo a usuarios autenticados, carga los importes que figuran en la planilla y habilita la sincronizacion en tiempo real. No modifica ni borra la tabla products.
+
+PASO 2 - PUBLICAR
+1. Descomprimir el ZIP completo.
+2. En Netlify, abrir el sitio GENESIS.
+3. Ir a Deploys.
+4. Arrastrar la carpeta descomprimida (con index.html en la raiz) al area de deploy manual, o comprimir su contenido y subirlo segun la interfaz disponible.
+
+PASO 3 - PROBAR
+1. Abrir la pagina de GENESIS e iniciar sesion como siempre.
+2. Entrar en la pestaña Servicios de impresión.
+3. Verificar las cuatro categorias y editar un precio de prueba.
+4. Comprobar que se conserva al actualizar y que aparece desde otra computadora/sesion.
+
+La lista de Librería permanece separada y sin cambios. Los campos sin precio en la planilla se mantienen vacíos.

@@ -1,0 +1,7 @@
+GENESIS V7.1 - Corrección visual
+
+Se corrigió la distribución de columnas de la lista de Librería en la vista TODO.
+Ahora el número, nombre, precio público y acciones (editar, marcar para revisar y eliminar) tienen columnas separadas, evitando que los botones tapen el importe.
+
+No requiere cambios en Supabase ni ejecutar SQL. Es una actualización únicamente visual.
+Para publicar: descomprimir el ZIP y subir a Netlify el CONTENIDO de la carpeta GENESIS_V7_COMPLETO (incluyendo index.html en la raíz del deploy).
